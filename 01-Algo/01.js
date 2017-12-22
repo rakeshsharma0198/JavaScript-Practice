@@ -3,7 +3,7 @@
 let s1 = 'DBCABA'
 
 const t1 = (s) => {
-  console.log(s);
+  console.log(s)
   let obj = {}
 
   return s.split("").map((x) => {
@@ -18,4 +18,4 @@ const t1 = (s) => {
 }
 
 
-console.log( "The answer is: ", t1(s1) );
+console.log( "The answer is: ", t1(s1) )
