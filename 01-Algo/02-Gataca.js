@@ -39,11 +39,11 @@ const myFun = ( singleStrand ) => {
   console.log("The string: ")
 
   const subDv = (arr, num) => {
-    var tempArr = []
-    while (arr.length > 0) {
-      tempArr.push(arr.splice(0, num))
-    }
-    return tempArr
+        var tempArr = []
+        while (arr.length > 0) {
+          tempArr.push(arr.splice(0, num))
+        }
+        return tempArr
   }
 
 
