@@ -1,5 +1,10 @@
 
-const should = require('chai').should()
+// const should = require('chai').should()
+
+const chai = require('chai')
+const should = chai.should()
+const expect = chai.expect
+
 const add = require('../math.js')
 
 describe('test for add function', () => {
@@ -20,4 +25,14 @@ describe('test for add function', () => {
     const unitResult = add( value1, value2 )
     unitResult.should.equal(expectedValue)
   })
+
+  it('expect 10 when given value 4 & 6 ', () => {
+    const value1 = 4
+    const value2 = 6
+    const expectedValue = 10
+
+    const unitResult = add( value1, value2 )
+    expect(unitResult).to.equal(expectedValue)
+  })
+
 })
