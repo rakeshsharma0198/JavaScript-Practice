@@ -10,6 +10,9 @@ describe('test for add function', () => {
   it('shold return 7 when given values: 3 & 4', () => {
     const value1 = 3
     const value2 = 4
-    const expectedValue
+    const expectedValue = 7
+
+    const unitResult = add( value1, value2 )
+    unitResult.should.equal(expectedValue)
   })
 })
