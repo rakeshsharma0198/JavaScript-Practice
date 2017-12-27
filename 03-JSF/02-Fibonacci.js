@@ -23,3 +23,16 @@ const ar2 = new Array(100).fill("a").map( (c, i) => { if( i === 0 ){
  } )
 
 console.log(ar2)
+
+
+
+// 
+// recursive solution:
+//
+// function fib(n){
+//   if(n<2){
+//     return n
+//   } else {
+//     return fib(n - 1) + fib(n - 2)
+//   }
+// }
