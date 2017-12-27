@@ -12,3 +12,12 @@ http://chaijs.com/
 
 For more information about Unit Testing see my blog-post:
 http://blog.mycode.website/tdd/
+
+
+topics to review
+javascritp code assigments
+
+prototipe chain
+this.
+asic pattersn
+call backs
