@@ -23,4 +23,11 @@ describe("testing the palindrome function", () => {
 
     expect(functionResult).to.equal(true)
   })
+
+  it('assert type of boolean', () => {
+    const input = 'laalt'
+    const expectedValue = palFun(input)
+
+    assert.typeOf(expectedValue, 'boolean')
+  })
 })
