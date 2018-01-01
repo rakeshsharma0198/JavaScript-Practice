@@ -12,6 +12,12 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+  Array(n).fill(1).map((c, i) => {
+    (((i + 1) % 3 === 0) && ((i + 1) % 5 === 0)) ? console.log('fizzbuzz') :
+    (((i + 1) % 3 === 0)) ? console.log('fizz') :
+    (((i + 1) % 5 === 0)) ? console.log('buzz') : console.log(i + 1)
+  })
+}
 
 module.exports = fizzBuzz;
