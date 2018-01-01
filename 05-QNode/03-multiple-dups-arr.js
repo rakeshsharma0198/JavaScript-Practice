@@ -5,21 +5,17 @@
 // 03- create a function that finds waht are the duplicate numbers.
 
 const dup = (arr) => {
-const obj = arr.reduce((prev, next) => {
-prev[next] = (prev[next] + 1) || 1
-return prev
-}, {})
+  const dups = []
+  const ocurrencses = arr.reduce( (pv, cv) => {
+    pv[cv] = ( pv[cv] + 1 ) || 1
+    return pv
+  }, {} )
 
-console.log(obj)
+  for(z in ocurrencses){
+    if( ocurrencses[z] > 1 ){ dups.push(z) }
+  }
 
-let dups = []
-for(var z in obj){
-if(obj[z] > 1){
-dups.push(z)
-}
-}
-
-console.log(dups);
+  return dups
 }
 
 let myArr = Array(11).fill(1).map((c, i) => { return i })  // Creating the array
