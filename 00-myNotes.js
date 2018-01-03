@@ -1,3 +1,14 @@
+Linked List:
+
+const nodeOne = {
+  data: 123
+}
+
+const nodeTwo = {
+  data: 456
+}
+
+nodeOne.next = nodeTwo
 
 --------------------------------------------
       // SUM ARRAY
@@ -13,7 +24,7 @@ arr.reduce((pv, cv) => {
 }, {})
 
 ---------------------------------
-      // MY FIBONACCI 
+      // MY FIBONACCI
 
 let fib = () => {
   let count = 2
