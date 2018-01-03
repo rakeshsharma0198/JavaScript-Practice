@@ -11,7 +11,7 @@
 
 
 function fib(n) {
-  count = 2
+  let count = 2
   let arr = [0, 1]
 
   let myFib = (count) => {
