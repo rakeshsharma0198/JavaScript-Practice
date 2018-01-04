@@ -51,18 +51,19 @@ let fib = () => {
 }
 
 ---------------------------------
-      // From array to sub arrays of n
+// From array to sub arrays of n
 
-      const subDv = (arr, num) => {
-            var tempArr = []
-            while (arr.length > 0) {
-              tempArr.push(arr.splice(0, num))
-            }
-            return tempArr
+const subDv = (arr, num) => {
+      var tempArr = []
+      while (arr.length > 0) {
+        tempArr.push(arr.splice(0, num))
       }
+      return tempArr
+}
 
-      const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-      console.log( subDv( arr1 , 2 ))  // [ [1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12] ]
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+console.log( subDv( arr1 , 2 ))  // [ [1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12] ]
+
 
 ---------------------------------
     // Big O
@@ -71,3 +72,29 @@ O(1) = Constant
 O(n) = Linear
 O(n^2) = Exponential
 O(log n) = Logaritmic
+
+
+--------------------------------------------
+      // TWO-SUM
+
+const twoSum = (arr, num) => {
+
+  let hashtable = []
+  let pairs = []
+
+
+  for(let x = 0; x < arr.length; x++){
+
+    let currNum = arr[x]
+    let counterpart = num - currNum
+
+    if(hashtable.includes(counterpart)){ pairs.push([currNum, counterpart]) }
+    hashtable.push(currNum)
+  }
+
+  return pairs
+}
+
+
+
+--------------------------------------------
