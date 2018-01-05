@@ -1,4 +1,5 @@
 
+// Returns true if yes false if not key element is in the provided array, using binary search and recursion
 
 const binaryRec = (arr, key) => {
   let midIndex = Math.floor(arr.length / 2)
