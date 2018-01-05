@@ -19,7 +19,6 @@ const myFib = (num) => {
 console.log(myFib(7))
 
 
-
 // -------------------------------------------------
 // Converst a 1 Dim array to 2 Dim arrays
 
@@ -59,3 +58,26 @@ const maxChar = (str) => {
 }
 
 console.log( maxChar('laksdjf;laskdfjlaskfdjalskfjd;laksjdfsdfkjdfkkldkjfldkjflskdjflskf') )
+
+
+// -------------------------------------------------
+// Bubble Sort
+
+const bubbleSort = (arr) => {
+
+  for(let x = arr.length; x > 0; x--){
+    for(let y = 0; y < x; y++){
+
+      if(arr[y] > arr[y + 1]){
+        let temp = arr[y]
+        arr[y] = arr[y + 1]
+        arr[y + 1] = temp
+      }
+
+    }
+  }
+
+  return arr
+}
+
+console.log(bubbleSort([8, 6, 1, 9, 3, 1, 7, 9, 7, 4, 5]));
