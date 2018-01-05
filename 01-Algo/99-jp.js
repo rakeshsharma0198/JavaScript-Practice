@@ -81,3 +81,23 @@ const bubbleSort = (arr) => {
 }
 
 console.log(bubbleSort([8, 6, 1, 9, 3, 1, 7, 9, 7, 4, 5]));
+
+
+// -------------------------------------------------
+// MERGE SORT
+
+const mergeSort = (arr1, arr2) => {
+  const temp = []
+
+  while(arr1.length || arr2.length){
+    if(arr1[0] < arr2[0]){
+      temp.push( arr1.shift() )
+    }else{
+      temp.push( arr2.shift() )
+    }
+  }
+
+  return temp
+}
+
+console.log( mergeSort( [2, 9, 12, 22, 34, 50], [3, 7, 11, 16, 22, 35, 42, 55, 65, 75, 85, 95] ) );
