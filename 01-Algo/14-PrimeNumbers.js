@@ -1,4 +1,3 @@
-console.log('JavaScript: 2 \n')
 
 // Sieve of Eratosthenes
 // Find all the PRIME Numbers up to a given number
