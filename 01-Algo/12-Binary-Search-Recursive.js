@@ -1,5 +1,3 @@
-console.log('JavaScript: 2 \n')
-
 
 
 const binaryRec = (arr, key) => {
