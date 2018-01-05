@@ -1,1 +1,32 @@
-console.log('JavaScript: 3 \n')
+console.log('JavaScript: 4 \n')
+
+const twoSum = (arr, num) => {
+  const table = []
+  const results = []
+
+  for(let x = 0; x < arr.length; x++){
+    let currentNumber = arr[x]
+    let counterpart = num - currentNumber
+
+    if(table.includes(counterpart)){ results.push( [currentNumber, counterpart] ) }
+    table.push(currentNumber)
+  }
+
+  return results
+}
+
+
+console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
+
+// function
+// table []
+// results []
+//
+// for()
+// currentNumber
+// counterpart
+//
+// if(conterpart){ push to resuslts}
+// push to table(cn)
+//
+// return resuslts

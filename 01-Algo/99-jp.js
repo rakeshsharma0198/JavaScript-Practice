@@ -101,3 +101,25 @@ const mergeSort = (arr1, arr2) => {
 }
 
 console.log( mergeSort( [2, 9, 12, 22, 34, 50], [3, 7, 11, 16, 22, 35, 42, 55, 65, 75, 85, 95] ) );
+
+
+// -------------------------------------------------
+//  TWO SUM
+
+const twoSum = (arr, num) => {
+  const table = []
+  const results = []
+
+  for(let x = 0; x < arr.length; x++){
+    let currentNumber = arr[x]
+    let counterpart = num - currentNumber
+
+    if(table.includes(counterpart)){ results.push( [currentNumber, counterpart] ) }
+    table.push(currentNumber)
+  }
+
+  return results
+}
+
+
+console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
