@@ -6,7 +6,7 @@
 
 const twoSum = (arr, num) => {
 
-  let hashtable = []
+  let uniTable = []
   let pairs = []
 
 
@@ -15,8 +15,8 @@ const twoSum = (arr, num) => {
     let currNum = arr[x]
     let counterpart = num - currNum
 
-    if(hashtable.includes(counterpart)){ pairs.push([currNum, counterpart]) }
-    hashtable.push(currNum)
+    if(uniTable.includes(counterpart)){ pairs.push([currNum, counterpart]) }
+    uniTable.push(currNum)
   }
 
   return pairs
@@ -31,12 +31,11 @@ console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
 
 
 
-
 // const twoSum = (arr, num) => {
 //   console.log(arr);
 //   console.log(" ");
 //
-//   let hashtable = []
+//   let uniTable = []
 //   let pairs = []
 //
 //
@@ -45,11 +44,11 @@ console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
 //     let currNum = arr[x]
 //     let counterpart = num - currNum
 //
-//     if(hashtable.includes(counterpart)){ pairs.push([currNum, counterpart]) }
-//     hashtable.push(currNum)
+//     if(uniTable.includes(counterpart)){ pairs.push([currNum, counterpart]) }
+//     uniTable.push(currNum)
 //
 //     console.log(currNum);
-//     console.log(hashtable);
+//     console.log(uniTable);
 //     console.log(pairs);
 //     console.log(" ");
 //     console.log(" ");
