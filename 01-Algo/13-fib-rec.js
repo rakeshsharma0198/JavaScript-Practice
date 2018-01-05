@@ -1,4 +1,5 @@
 
+// Exponential run Time
 
 const fibRec2 = (position) => {
   if(position < 3) { return 1}
@@ -7,3 +8,22 @@ const fibRec2 = (position) => {
 
 
 console.log(fibRec2(12))
+
+
+// --------------------------------------------------
+// Memoised Linear Time
+
+const fibMemo = (index, cache) => {
+  cache = cache || []
+
+  if(cache[index]){ return cache[index] }
+  else{
+    if(index < 3){ return 1 }
+    else{ cache[index] = fibMemo(index - 1, cache) + fibMemo(index - 2, cache) }
+  }
+
+  return cache[index]
+}
+
+
+console.log( fibMemo(1477) );
