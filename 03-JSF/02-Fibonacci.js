@@ -26,7 +26,7 @@ console.log(ar2)
 
 
 
-// 
+//
 // recursive solution:
 //
 // function fib(n){

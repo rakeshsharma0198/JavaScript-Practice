@@ -7,7 +7,6 @@ const primeNums = (n) => {
 
   for(let base = 2; base <= Math.sqrt(n); base++){
     for(let multiple = 2; (base * multiple) <= n; multiple++){
-      // console.log(base * multiple);
       primes[base * multiple] = false
     }
   }

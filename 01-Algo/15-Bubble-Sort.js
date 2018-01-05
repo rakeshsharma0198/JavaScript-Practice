@@ -19,5 +19,4 @@ const bubbleSort = (arr) => {
   return arr
 }
 
-
 console.log(bubbleSort([3, -9, -12, -1, 8]));
