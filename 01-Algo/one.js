@@ -1,1 +1,1 @@
-console.log('JavaScript: 2 \n')
+console.log('JavaScript: 3 \n')
