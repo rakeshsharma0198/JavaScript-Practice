@@ -34,3 +34,28 @@ const twoDim = (arr, num) => {
 }
 
 console.log( twoDim([1, 2, 3, 4, 5, 6, 7, 8, 9], 3) )
+
+
+// -------------------------------------------------
+// Find the mospopular letter in a string
+
+const maxChar = (str) => {
+  const mapObj = str.split('').reduce((pv, cv) => {
+    pv[cv] = (pv[cv] + 1) || 1
+    return pv
+  }, {})
+
+  let max = 0, letter = ''
+
+  for(z in mapObj){
+    if(mapObj[z] > max){
+      max = mapObj[z]
+      letter = z
+    }
+  }
+
+  return letter
+
+}
+
+console.log( maxChar('laksdjf;laskdfjlaskfdjalskfjd;laksjdfsdfkjdfkkldkjfldkjflskdjflskf') )
