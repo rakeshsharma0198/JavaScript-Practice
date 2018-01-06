@@ -6,27 +6,11 @@ const twoSum = (arr, num) => {
 
   for(let x = 0; x < arr.length; x++){
     let currentNumber = arr[x]
-    let counterpart = num - currentNumber
+    let counterpart = arr[x]
 
-    if(table.includes(counterpart)){ results.push( [currentNumber, counterpart] ) }
+    if(table.includes(counterpart)){ results.push([currentNumber, counterpart]) }
     table.push(currentNumber)
   }
 
   return results
 }
-
-
-console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
-
-// function
-// table []
-// results []
-//
-// for()
-// currentNumber
-// counterpart
-//
-// if(conterpart){ push to resuslts}
-// push to table(cn)
-//
-// return resuslts

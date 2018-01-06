@@ -1,10 +1,19 @@
-"Frame 1: AGG TGA CAC CGC AAG CCT TAT ATT AGC\n
-Frame 2: A GGT GAC ACC GCA AGC CTT ATA TTA GC\n
-Frame 3: AG GTG ACA CCG CAA GCC TTA TAT TAG C"
 
 
+const twoSum = (arr, num) => {
+  const table = []
+  const results = []
 
-Expected:
-'Frame 1: AGG TGA CAC CGC AAG CCT TAT ATT AGC\nFrame 2: A GGT GAC ACC GCA AGC CTT ATA TTA GC\nFrame 3: AG GTG ACA CCG CAA GCC TTA TAT TAG C',
-instead got:
-'Frame 1: AGG TGA CAC CGC AAG CCT TAT ATT AGC \nFrame 2: A GGT GAC ACC GCA AGC CTT ATA TTA GC \nFrame 3: AG GTG ACA CCG CAA GCC TTA TAT TAG C '
+  for(let x = 0; x < arr.length; x++){
+    let currentNumber = arr[x]
+    let counterpart = num - currentNumber
+
+    if(table.includes(counterpart)){ results.push( [currentNumber, counterpart] ) }
+    table.push(currentNumber)
+  }
+
+  return results
+}
+
+
+console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
