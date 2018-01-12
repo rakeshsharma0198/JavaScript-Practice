@@ -1,16 +1,20 @@
-console.log('JavaScript: 5 \n')
+console.log('JavaScript: 15 \n')
 
-const pali = (str) => {
-  const prostr = str.toLowerCase().split("").filter((x) => { return x.match(/[a-z]/) })
+const bubbleSort = (arr) => {
+  for(let x = arr.length; x > 0; x--){
+    for(let y = 0; y < x; y++){
 
-  console.log(prostr);
+      if(arr[y] > arr[y + 1]){
+        let temp = arr[y]
+        arr[y] = arr[y + 1]
+        arr[y + 1] = temp
+      }
 
-  console.log(prostr.join(""))
-  console.log(prostr.reverse().join(""))
+    }
+  }
 
-  return prostr.join("") === prostr.reverse().join("")
+  return arr
 }
 
-
-// console.log( pali("abcdefgah") );
-console.log( pali("Madam, I'm Adama") );
+console.log( bubbleSort([3, 9, 12, 1, 2]) )
+// console.log( bubbleSort([3, -9, -12, -1, 8]) )

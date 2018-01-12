@@ -1,6 +1,10 @@
 
-// Is palindrome? true or false
 
+
+
+
+// --------------------------------------------------------------------
+// Is palindrome? true or false
 const isPalindrome = (str) => {
   let myArr = str.toLowerCase().split("").filter((x) => { return x.match(/[a-z]/) })
   return myArr.join("") === myArr.reverse().join("")
@@ -32,4 +36,11 @@ isPalindrome("Madam, I'm Adam");
 
 
 // ----------------------------------
-// Practice way:
+// Just Practice :
+
+const pali = (str) => {
+  const one = str.toLowerCase().split("").filter((x) => { return x.match(/[a-z]/) })
+  return one.join("") === one.reverse().join("")
+}
+
+console.log( pali("Madam, I'm Adam") )
