@@ -127,3 +127,29 @@ console.log( twoSum([1, 6, 4, 5, 3, 3], 7) )
 
 
 // -------------------------------------------------
+// Find what letter has the most occurances
+
+const  maxOcc = (str) => {
+  const myObj = str.toLowerCase().split("").filter((x) => { return x.match(/[a-z]/) })
+                    .reduce((pv, cv) => {
+                      pv[cv] = (pv[cv] + 1) || 1
+                      return pv
+                    }, {})
+  let max = 0
+  let cha = ""
+
+  Object.keys(myObj).forEach((x) => {
+    if(myObj[x] > max){
+      max = myObj[x]
+      cha = x
+    }
+  })
+
+  return `The most repeated character is ${cha} with ${max} occurances.`
+}
+
+
+console.log( maxOcc("peter's piper pizza pure perfection and Pride PpP........................PPp") );
+
+// The most repeated character is p with 13 occurances.
+// -------------------------------------------------
