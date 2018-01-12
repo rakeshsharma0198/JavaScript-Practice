@@ -1,8 +1,11 @@
 
 
 // Location of ifo:
-// https://www.youtube.com/watch?v=Oive66jrwBs
 // https://www.npmjs.com/package/node-fetch
+// https://www.youtube.com/watch?v=zT5yR2E-GGU
+
+// https://www.youtube.com/watch?v=Oive66jrwBs
+
 
 console.log("JavaScript Practice: 44\n.")
 

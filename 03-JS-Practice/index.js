@@ -1,10 +1,10 @@
 // JS Code practice Place.
 
-// Location of ifo: 
+// Location of ifo:
 // https://www.youtube.com/watch?v=Oive66jrwBs
 // https://www.npmjs.com/package/node-fetch
 
-console.log("JavaScript Practice: 44\n.")
+console.log("JavaScript Practice: 45\n.")
 
 const fetch = require('node-fetch')
 
@@ -12,12 +12,27 @@ const myURL = "https://swapi.co/api/people/1/"
 
 const callFun = async (myURL) => {
   const info = await fetch(myURL, {method: "GET"})
-    const { results } = await info.json()
-    return await results
+    const data = await info.json()
+    return await data
 }
 
 
 console.log( callFun(myURL) )
+
+
+// =================================================================
+// const fetch = require('node-fetch')
+//
+// const myURL = "https://swapi.co/api/people/1/"
+//
+// const callFun = async (myURL) => {
+//   const info = await fetch(myURL, {method: "GET"})
+//     const { results } = await info.json()
+//     return await results
+// }
+//
+//
+// console.log( callFun(myURL) )
 
 
 // ---------------------------------------------------------------
