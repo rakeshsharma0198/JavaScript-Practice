@@ -26,10 +26,11 @@ app.get('/', function(req, res){
 //     .then(function(res) { return res.json() })
 //     .then(function(json) { console.log(json) })
 
-const data = getData(myURL)
 
-console.log("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
-console.log(data)
+
+console.log("===============================================");
+getData(myURL)
+  .then((info) => { console.log(info); })
 
 // setTimeout( () => {
 //   console.log("the info is: ==================================");
