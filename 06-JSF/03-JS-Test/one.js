@@ -7,16 +7,4 @@
 // console.log("\n=====================================\n");
 
 
-console.clear()
-
-if (true) {
-
-  const myFun = () => {
-
-  }
-
-  console.log(typeof myFun)
-}
-
-
-console.log(typeof myFun)
+console.log("Hello Driver");
