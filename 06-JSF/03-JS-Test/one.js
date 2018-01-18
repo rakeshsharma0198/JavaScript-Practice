@@ -5,6 +5,9 @@ const mySort( h1, h2 ){
   let idxH1 = 0
   let idxH2 = 0
 
+  whle ( idxH1 <= h1.length || idxH2 <=h2.length ){
+    
+  }
 
 }
 
