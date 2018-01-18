@@ -1,3 +1,15 @@
+// https://hackernoon.com/programming-with-js-merge-sort-deb677b777c0
+
+let h1 = arr.splice(0, Math.floor(arr.length / 2))
+let h2 = arr
+
+console.log(h1);
+console.log(h2);
+
+h1 = myMerge(h1)
+h2 = myMerge(h2)
+
+
 
 // =============================================================================================
 // MERGE-SORT

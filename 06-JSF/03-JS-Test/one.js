@@ -1,29 +1,23 @@
 
-// const myRec = (str, num) => {
-//   if(num >= str.length + 1){ return num }
-//   console.log(num)
-//   // myRec(str, num + 1)
-//   return myRec(str, num + 1)
-// }
-//
-// console.log("Value return: ", myRec("1234567", 0) )
 
+const mySort( h1, h2 ){
+  let result = []
+  let idxH1 = 0
+  let idxH2 = 0
 
-const myRec = (arr, total) => {
-
-  if(arr.length > 0){
-    total += arr[0]
-    arr.shift()
-    console.log(arr)
-    console.log(total)
-    console.log(" ")
-    return myRec(arr, total)
-  }else {
-    console.log("returning total: ", total)
-    return total
-  }
 
 }
 
-const arr = [1, 2, 3, 4]
-console.log("What I got: ", myRec(arr, 0) )
+
+const myMerge = (arr) => {
+
+  if(arr.length === 1){ return arr }
+
+  let h1 = arr.splice(0, Math.floor(arr.length / 2))
+  let h2 = arr
+
+  return mySort( h1, h2 )
+}
+
+const arr = [1, 9, 6, 5, 8, 3, 7, 0, 2, 4]
+console.log( myMerge(arr) )
