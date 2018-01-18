@@ -6,7 +6,7 @@ const myRec = (str, num) => {
   if(num >= str.length + 1){ return num }
   console.log(num)
   // myRec(str, num + 1)
-  myRec(str, num + 1)
+  return myRec(str, num + 1)
 }
 
 console.log("Value return: ", myRec("1234567", 0) )
@@ -23,7 +23,7 @@ const myRec = (arr, total) => {
     console.log(arr)
     console.log(total)
     console.log(" ")
-    myRec(arr, total)
+    return myRec(arr, total)
   }else {
     console.log("returning total: ", total)
     return total
