@@ -1,26 +1,16 @@
 
 // console.log("Hello from here...");
 
-const mostPopular = (str) => {
-  const tempObj = str.toLowerCase()
-                     .split("")
-                     .reduce((pv, cv) => {
-                       pv[cv] = ( pv[cv] + 1 ) || 1
-                       return pv
-                     }, {})
+const myPal = (str) => {
+  console.log(str)
+  const temp = str.split("")
+                  .reverse()
+                  .join("")
 
-  let max = 0
-  let cha = ""
+  return ( str === temp ) ? true : false
 
-  Object.keys(tempObj).forEach( (x) => {
-    if(tempObj[x] > max){
-      max += 1
-      cha = x
-    }
-  })
+  console.log(temp);
 
-  return `The mos common letter in: "${str}" is "${cha}" with ${tempObj[cha]} occurences.`
 }
 
-
-console.log( mostPopular("alabama") )
+console.log( myPal("assa") )
