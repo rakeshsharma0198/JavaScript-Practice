@@ -1,5 +1,5 @@
+// What is the most popular letter in the word
 
-// console.log("Hello from here...");
 
 const mostPopular = (str) => {
   const tempObj = str.toLowerCase()
@@ -23,4 +23,4 @@ const mostPopular = (str) => {
 }
 
 
-console.log( mostPopular("alabama") )
+console.log( mostPopular("alabama") )  // The mos common letter in: "alabama" is "a" with 4 occurences.
