@@ -1,9 +1,18 @@
 
-console.log("Hello from here...");
+// console.log("Hello from here...");
 
 const isPalindrome = (str) => {
-  let word = str.toLowerCase().split("").reverse().join("")
-  return (str.toLowerCase() === word) ? true : false
+  console.log(str);
+// const word = str.toLowerCase().split("").reverse().join("")
+const word = str.toLowerCase().split("").reverse().join("")
+  console.log(word);
+
+  if(str.toLowerCase() === word){
+    return true
+  }else{
+    return false
+  }
+
 }
 
 
