@@ -44,3 +44,16 @@ const pali = (str) => {
 }
 
 console.log( pali("Madam, I'm Adam") )
+
+
+// --------------------------------------------------------------------------
+// --------------------------------------------------------------------------
+// PRACTICE CODE
+
+const isPalindrome = (str) => {
+  let word = str.toLowerCase().split("").reverse().join("")
+  return (str.toLowerCase() === word) ? true : false
+}
+
+
+console.log( isPalindrome("Elle") )
