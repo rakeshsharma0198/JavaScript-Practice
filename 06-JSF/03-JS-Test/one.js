@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 // 4. Median of Two Sorted Arrays
 // https://leetcode.com/problems/median-of-two-sorted-arrays/description/
 
@@ -28,3 +29,20 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 
 console.log( findMedianSortedArrays( [1, 3], [2] ) )
+=======
+// console.log("Hello from here...");
+
+const myPal = (str) => {
+  console.log(str)
+  const temp = str.split("")
+                  .reverse()
+                  .join("")
+
+  return ( str === temp ) ? true : false
+
+  console.log(temp);
+
+}
+
+console.log( myPal("assa") )
+>>>>>>> e3eae8b36b4cd400593153c396f11f5675229997
