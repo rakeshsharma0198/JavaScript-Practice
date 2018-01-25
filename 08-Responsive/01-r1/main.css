@@ -1,0 +1,66 @@
+body{
+  text-align: center;
+  background-color: gray;
+  padding: 15px
+}
+
+.baner-cont{
+  margin: 0px auto;
+  display: block;
+  width: 70%;
+}
+
+img{
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+}
+
+
+
+#sec-cont{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.line1{
+  width: 60%;
+  height: 5px;
+  background-color: black;
+}
+
+section{
+  background-color: white;
+  border: 2px solid black;
+  margin: 7px;
+  padding: 10px;
+}
+
+#container{
+  margin: 0px auto;
+  background-color: rgb(151, 127, 167);
+  border: 1px solid black;
+  padding: 15px;
+  width: 60%;
+}
+
+
+
+/*==============================================================*/
+              /*MEDIA QUERES*/
+/*==============================================================*/
+
+@media screen and (max-width: 950px) {
+
+  #sec-cont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section{
+    background-color: aquamarine;
+  }
+
+}
