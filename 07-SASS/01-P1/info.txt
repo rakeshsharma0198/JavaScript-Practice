@@ -3,6 +3,9 @@ Practice in usage of SASS
 Instructions in how to install sass:
 http://sass-lang.com/install
 
+NPM Node-Sass
+https://www.npmjs.com/package/node-sass
+
 CDN Normalize:
 https://cdnjs.com/libraries/normalize
 
