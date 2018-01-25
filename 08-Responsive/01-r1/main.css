@@ -1,10 +1,25 @@
+/*==============================================================*/
+/*-------------------------- Gral ------------------------------*/
+
 body{
   text-align: center;
   background-color: gray;
   padding: 15px
 }
 
-.baner-cont{
+#container{
+  margin: 0px auto;
+  background-color: rgb(151, 127, 167);
+  border: 1px solid black;
+  padding: 15px;
+  width: 60%;
+}
+
+
+/*==============================================================*/
+/*-------------------------- Header ------------------------------*/
+
+.img-cont{
   margin: 0px auto;
   display: block;
   width: 70%;
@@ -16,19 +31,19 @@ img{
   height: auto;
 }
 
-
-
-#sec-cont{
-  display: flex;
-  justify-content: space-around;
-}
-
-
-
 .line1{
   width: 60%;
   height: 5px;
   background-color: black;
+}
+
+
+/*==============================================================*/
+/*-------------------------- Body ------------------------------*/
+
+#sec-cont{
+  display: flex;
+  justify-content: space-around;
 }
 
 section{
@@ -38,13 +53,7 @@ section{
   padding: 10px;
 }
 
-#container{
-  margin: 0px auto;
-  background-color: rgb(151, 127, 167);
-  border: 1px solid black;
-  padding: 15px;
-  width: 60%;
-}
+
 
 
 
@@ -64,6 +73,3 @@ section{
   }
 
 }
-
-
-    
