@@ -1,3 +1,8 @@
 
-Video Source:
+INFO USED IN THIS PROJECT:
+
+Query source:
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+Video with some information Source:
 https://www.youtube.com/watch?v=fA1NW-T1QXc
