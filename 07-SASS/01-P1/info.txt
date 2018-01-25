@@ -1,1 +1,17 @@
 Practice in usage of SASS
+
+Instructions in how to install sass:
+http://sass-lang.com/install
+
+CDN Normalize:
+https://cdnjs.com/libraries/normalize
+
+--------------------------------------------------------------
+
+how to part1:
+https://www.youtube.com/watch?v=vkPPjYvi0Zg
+
+how to part2:
+https://www.youtube.com/watch?v=8F1Vof0gTG4
+
+--------------------------------------------------------------
