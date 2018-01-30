@@ -1,1 +1,8 @@
 This directory have notes & Projects on TypeScript
+
+
+
+Here is the list of items that are need:
+
+Node.js
+typescript: sudo npm install -g typescript 
