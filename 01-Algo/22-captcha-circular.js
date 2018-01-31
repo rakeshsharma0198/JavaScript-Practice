@@ -51,7 +51,8 @@
 // ============================================================================================
 //                                             CODE
 // ============================================================================================
-// Giving an input provided on instructions the nesesary the total is:
+// Giving the input provided on instructions, the the total is: 1071
+
 const captcha = (num) => {
 
   const originalNumbers = num.split("").map((x) => { return parseInt(x) })
