@@ -39,7 +39,7 @@
 // ============================================================================================
 //                                        LOGIC FOR CODE
 // ============================================================================================
-// - Wrap the input in backticks to convert to string literal.
+// - Wrap the input in backticks to convert to string literal, and pass it as input parameter.
 // - Creat variable "total" initialized as zero, to return after adding values.
 // - Create an Array named "data".
 // - Populate the array wth the input spliting each new line.
@@ -47,8 +47,8 @@
 // - Convert each element in the subarrays of "data" to type 'number'.
 // - Sort each of the sub arrays from smalles to largest.
 // - Loop each element of the array "data"
-//       a) rest the numeric value of 1st element of sub-array to the the numeric value of last element of sub-array
-//       b) add the result of computation in step "a)" to the current value of total.
+//       a) Subtract the numeric value of 1st element of sub-array to the the numeric value of last element of sub-array
+//       b) Add the result of computation in step "a)" to the current value of total.
 // - Returen total.
 // ********************************************************************************************
 
