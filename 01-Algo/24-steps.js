@@ -55,7 +55,7 @@ const grid = (num) => {
   let cornerValues = []
   // -----------------------------------------------------------------------------------------
 
-  // Load array "BreackPoints" with values [1, 9, 25, 49, ...]
+  // Load array "BreackPoints" with values, example: [1, 9, 25, 49, ...]
   do {
       breakPoints.push( (2 * counter +1)**2 )
       counter += 1
@@ -95,6 +95,8 @@ const grid = (num) => {
   steps += ( breakPoints.length -1 )
   // -----------------------------------------------------------------------------------------
 
+
+  // Return steps
   return steps
 }
 
