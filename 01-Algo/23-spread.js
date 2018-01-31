@@ -57,7 +57,7 @@
 // ============================================================================================
 //                                             CODE
 // ============================================================================================
-// The result calculated by this algorithm is: 34581
+// The result calculated by this function given the input providide on instructtions is: 34581
 
 const spread = (input) => {
   let total = 0
