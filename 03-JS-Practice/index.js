@@ -1,3 +1,3 @@
 // JS Code practice Place.
 
-console.log();
+alert("Hello")
