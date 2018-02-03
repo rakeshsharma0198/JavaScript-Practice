@@ -98,3 +98,16 @@ const twoSum = (arr, num) => {
 
 
 --------------------------------------------
+
+
+// Topics for class:
+// Review:
+//
+// HTML & CSS & JavaScript
+// Data Types
+// Variables.
+// if statements
+//
+// Teach:
+// Arrays
+// For Loops
