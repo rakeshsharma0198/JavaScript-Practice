@@ -67,3 +67,12 @@ cat dog tiger lion
 `\ `  <--- Match all spaces, I wrap it in Backtis  so you can see the spcae but you not need it.
 \S    <--- Match anything that is not a "SPACE"
 \[\]  <--- Match all opeining and closing square braces.
+
+
+
+=============================================================
+-Quantifiers:
+    Match multiple things at once.
+
+*  <--- Means 0 or more times.
++  <--- Means 1 or more times.
