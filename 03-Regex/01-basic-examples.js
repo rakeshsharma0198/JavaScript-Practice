@@ -8,7 +8,10 @@ search for only
 [aAbB]
 abcdeABCDaEoiuuyBsdrs
 
+
 =============================================================
+Ranges
+[a-zA-Z]  <--- all leters no matter the case.
 
 
 =============================================================
