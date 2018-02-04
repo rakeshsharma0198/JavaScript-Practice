@@ -1,0 +1,27 @@
+
+How to Save All:
+
+Here we will add a new key-shor-cut
+
+the instruction can be found: 
+http://blog.devmatter.com/vs-code-ctrlshifts-wat/
+https://stackoverflow.com/questions/37014171/how-can-we-save-all-files-in-vscode-like-we-do-in-visual-studio
+
+
+  -- On Visual Studio Code Menu --
+File / Preferences / Keyboar Shorcuts
+
+in the file: "keybindindings.json"
+------------
+
+[
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    }
+]
+
+------------
+Save the changes and restar the editor. 
+
+
