@@ -18,7 +18,11 @@
 =============================================================
 -Negation:
 [^0-9] <--- Every thing that is not a number.
+[^a-z] <--- Every thing that is not a lowercase letter.
 
 
 
 =============================================================
+-Searching for a dash " - "
+[\-] <--- select only the dashes.
+[\-a-z]  <--- All dashes and All lowercase letters.
