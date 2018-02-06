@@ -14,8 +14,8 @@ UDWS Class: Git & GitHub.
 
 
 
-
-
+    Other topics 
+-----------------------------------------
 Graph.cool
 Apollo
 Mongo.db
