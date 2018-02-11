@@ -1,0 +1,5 @@
+Here is the basic example of how a library with methods would work.
+
+In this basic example we create a folder and name it "magic" inside we create a file: "index.js" and we export an Object with the functions as methods.
+
+then in the file "code.js" we create a variable call magic where we load the object from the folder, then we use the available methods. 
