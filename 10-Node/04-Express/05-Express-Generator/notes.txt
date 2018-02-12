@@ -1,0 +1,40 @@
+
+
+I crate the directory "airline" by
+
+01- I install globally a program call "express-generator" by"
+    $ sudo npm install -g express-generator
+
+  Location: https://github.com/expressjs/generator
+
+02- Create by teminal command : $ express airline
+
+Edxael: express airline
+
+  warning: the default view engine will not be jade in future releases
+  warning: use `--view=jade' or `--help' for additional options
+
+
+   create : airline
+   create : airline/package.json
+   create : airline/app.js
+   create : airline/public
+   create : airline/routes
+   create : airline/routes/index.js
+   create : airline/routes/users.js
+   create : airline/views
+   create : airline/views/index.jade
+   create : airline/views/layout.jade
+   create : airline/views/error.jade
+   create : airline/bin
+   create : airline/bin/www
+   create : airline/public/javascripts
+   create : airline/public/images
+   create : airline/public/stylesheets
+   create : airline/public/stylesheets/style.css
+
+   install dependencies:
+     $ cd airline && npm install
+
+   run the app:
+     $ DEBUG=airline:* npm start
