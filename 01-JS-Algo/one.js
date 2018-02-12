@@ -18,7 +18,7 @@ const hrnote = (note, article) => {
 
   const mapNote = note.split(" ")
     .reduce((pv, cv) => {
-      pv[cv] = (pv[cv] + 1 )|| 1
+      pv[cv] = (pv[cv] + 1) || 1
       return pv
     }, {})
 
@@ -28,6 +28,7 @@ const hrnote = (note, article) => {
       return pv
     } ,{})
 
+  console.log(mapNote);
 
     Object.keys(mapNote).forEach((x) => {
       if(mapNote[x] > mapArt[x] || mapArt[x] === undefined){ answer = false }
