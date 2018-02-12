@@ -1,0 +1,18 @@
+body{
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.menu-ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu-li{
+  background-color: gray;
+  width: 150px;
+  font-weight: bold;
+  padding: 7px;
+  margin: 4px 4px 1px 4px;
+}
