@@ -75,5 +75,19 @@ const word = str.toLowerCase().split("").reverse().join("")
 
 }
 
-
 console.log( isPalindrome("Elle") )
+
+// ----------------------------------------------------------------------------
+
+const isPalindrome = (sentence) => {
+  const original = sentence.toLowerCase().split("").filter((x) => { return x.match(/[a-z]/) })
+  const forw = original.join("")
+  const back = original.reverse().join("")
+
+  console.log(original);
+
+  return forw === back
+
+}
+
+console.log( isPalindrome("Madam, I'm Adama") )
