@@ -1,19 +1,30 @@
 
 console.log("GT 25")
 
+// create function
+// inititalize conunter to 0
+// initilize sequence to [0, 1]
+//   initialize recFunction
+//     when counter equals num -1 return
+//     sequence push ( sequence@counter + secuence@counter+1 )
+//     call recFunction(passing counter +1)
+// call recFunction
+// return sequence
 
-function fib(n) {
- count = 0
- let arr = [0, 1]
 
- let myFib = (count) => {
-   if(count === n - 1){ return }
-   arr.push(arr[count] + arr[count + 1])
-   myFib(count + 1)
- }
+function fib(num) {
+  let counter = 0
+  let data = [0, 1]
 
- myFib(count)
- return arr
+  const myRec = (counter) => {
+    if(counter === num -1){ return }
+    data.push( data[counter] + data[counter + 1] )
+    myRec(counter + 1)
+  }
+
+  myRec(counter)
+  return data
+
 }
 
 
