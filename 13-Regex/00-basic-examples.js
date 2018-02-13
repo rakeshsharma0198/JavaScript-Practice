@@ -76,3 +76,10 @@ cat dog tiger lion
 
 *  <--- Means 0 or more times.
 +  <--- Means 1 or more times.
+
+
+In the followgin example we are searching for the lowercase words:
+
+[a-z]+
+[a-z]*
+Hello how are you 801-888-9929

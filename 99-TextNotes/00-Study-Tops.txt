@@ -5,6 +5,7 @@ Regular Expressions.
 React-Native.
 UDWS Class: Git & GitHub.
 
+Java TomCat...
 
 
 
@@ -13,8 +14,7 @@ UDWS Class: Git & GitHub.
 
 
 
-
-    Other topics 
+    Other topics
 -----------------------------------------
 Graph.cool
 Apollo
