@@ -7,7 +7,11 @@ class IndexComp extends React.Component  {
   render() {
     return(
       <div>
-        <div>Hello from index</div>
+
+        {
+          // <div>Hello from index</div>
+        }
+
         <AddComponent />
       </div>
     )
