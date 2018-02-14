@@ -74,10 +74,10 @@ https://code.visualstudio.com/docs/getstarted/introvideos
 -----------------------------------------------------------------------------------------
         THINGS I WAN TO DO:
 
-- Click cursor in multiple lines:  "visual studio code add cursor with mouse"
-- Save all with a single save
-- Duplicate liine below
-
+x - Click cursor in multiple lines:  "visual studio code add cursor with mouse"
+x - Save all with a single save
+x - Duplicate liine below
+  - Commit new changes to GitHub.
 
 
 
@@ -87,4 +87,4 @@ https://code.visualstudio.com/docs/getstarted/introvideos
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-
+action
