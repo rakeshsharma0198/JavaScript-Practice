@@ -57,9 +57,28 @@ Save the changes and restar the editor.
 
 
 
+some data here:
+https://stackoverflow.com/questions/30037808/multiline-editing-in-vscode
+
+
+
 ===========================================================================
 Official site wit videos in how to use it: 
 https://code.visualstudio.com/docs/getstarted/introvideos
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+        THINGS I WAN TO DO:
+
+- Click cursor in multiple lines:  "visual studio code add cursor with mouse"
+- Save all with a single save
+- Duplicate liine below
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,4 +88,3 @@ https://code.visualstudio.com/docs/getstarted/introvideos
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-                    

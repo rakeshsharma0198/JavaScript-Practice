@@ -47,3 +47,25 @@ const fibMemo = (index, cache) => {
 
 
 console.log( fibMemo(1477) );
+
+
+// --------------------------------------------------
+// SIMILAR TO THE ONE ON THE TOP..
+
+// Using recursion to solve Fibonacci
+
+const myFib = (num) => {
+  const count = 2
+  const arr = [0, 1]
+
+  const recFun = (count) => {
+    if(count === num + 1){ return }
+    arr.push(arr[count - 1] + arr[count - 2])
+    recFun(count + 1)
+  }
+
+  recFun(count)
+  return arr
+}
+
+console.log( myFib(5) )

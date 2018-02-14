@@ -15,3 +15,5 @@ myArr.splice(Math.floor(Math.random() * 10), 0, Math.floor(Math.random() * 10)) 
 console.log(myArr);
 
 console.log(dup(myArr))
+
+
