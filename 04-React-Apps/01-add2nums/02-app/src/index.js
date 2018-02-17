@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import MainComp from './app/00-Main.jsx'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+class IndexComp extends Component{
+    render(){
+        return(
+            <div>
+                <MainComp/>
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(<IndexComp />, document.getElementById('root'))
+
