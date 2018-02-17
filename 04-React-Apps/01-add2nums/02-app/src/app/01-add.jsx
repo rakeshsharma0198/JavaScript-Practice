@@ -23,7 +23,7 @@ export default class extends Component{
                 <input type="text" value={ this.state.num2 } onChange={ (event) => { this.setState({ num2: event.target.value }) } } />
                 <br/><br/>
 
-                <button onClick={ () => { this.exe1() } } >Add Numbers</button>
+                <button onClick = { this.exe1.bind(this) } >Add Numbers</button>
                 <br/><br/>
 
                 <input type="text" value={ this.state.total }/>
