@@ -5,7 +5,7 @@ body{
 }
 
 #appCont{
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
     border: 3px solid black;
     margin-bottom: 10px;
 }
@@ -21,7 +21,7 @@ body{
 
 
 .myFooter{
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
     display: flex;
     justify-content: center;
     align-items: center;
