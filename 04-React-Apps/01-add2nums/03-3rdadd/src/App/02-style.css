@@ -1,4 +1,42 @@
 body{
     background-color: aquamarine;
     text-align: center;
+    padding: 25px 100px 0px 100px;
+}
+
+#appCont{
+    background-color: gray;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.gralInput{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.ansInp{
+    background-color: rgb(240, 255, 108);
+}
+
+
+.myFooter{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black
+}
+
+.footerElement{
+    margin: 5px;
+    
+}
+
+.myIcons{
+    font-size: 25px;
+}
+
+.footerText{
+    font-size: 20px;
 }
