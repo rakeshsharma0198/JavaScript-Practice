@@ -1,0 +1,56 @@
+
+body{
+    background-color: aquamarine;
+    padding: 25px;
+}
+
+/* ------------  Top Part  ------------------------------ */
+
+#top{
+    background-color: bisque;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* ------------  Center Part  ------------------------------ */
+
+#center{
+    background-color: rgb(83, 136, 248);
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+
+#c-left{
+    border: 2px solid black;
+    margin: 5px;
+    width: 20%;
+}
+
+#c-center{
+    border: 2px solid black;
+    margin: 5px;
+    width: 80%;
+}
+
+#c-right{
+    border: 2px solid black;
+    margin: 5px;
+    width: 20%;
+}
+
+
+
+
+/* ------------  Bottom Part  ------------------------------ */
+
+#bottom{
+    background-color: rgb(243, 55, 55);
+    padding: 40px;
+    margin-top: 15px;
+}
