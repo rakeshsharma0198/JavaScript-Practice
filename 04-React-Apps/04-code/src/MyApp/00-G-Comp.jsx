@@ -5,7 +5,7 @@ export default class extends React.Component{
     state = { num1: 'Pegasus' }
 
     exe1(){
-        console.log(this.state);
+        console.log(this.state)
         
     }
 
@@ -15,16 +15,16 @@ export default class extends React.Component{
 
                <h1>React.js Practice</h1>
 
-               <input type="text"/>
+               <input className="g-in input1"   type="text"/>
                <br/><br/>
 
-                <input type="text"/>
+                <input className="g-in input1"   type="text"/>
                 <br/><br/>
 
                 <input type="submit" onClick={ this.exe1.bind(this) } />
                 <br/><br/>
 
-                <input type="text"/>
+                <input className="g-in input2"   type="text"/>
 
             </div>
         )
