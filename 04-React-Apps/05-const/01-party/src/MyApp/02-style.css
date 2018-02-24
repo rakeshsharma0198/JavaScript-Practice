@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px;
+}
+
+#main-cont{
+    border: 2px solid black;
+
+}

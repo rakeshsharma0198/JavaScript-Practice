@@ -1,8 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import GaComp from './MyApp/01-Gather'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+class IndexComp extends React.Component{
+    render(){
+        return(
+            <div>
+                <GaComp/>
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(<IndexComp/>, document.getElementById('root'))
