@@ -7,7 +7,8 @@ export default class extends React.Component{
                <h1>React.js Practice</h1>
 
                <input type="text"/>
-               
+               <br/><br/>
+
             </div>
         )
     }
