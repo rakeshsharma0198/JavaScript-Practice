@@ -5,6 +5,9 @@ export default class extends React.Component{
         return(
             <div>
                <h1>React.js Practice</h1>
+
+               <input type="text"/>
+               
             </div>
         )
     }
