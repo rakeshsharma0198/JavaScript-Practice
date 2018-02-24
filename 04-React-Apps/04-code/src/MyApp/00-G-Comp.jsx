@@ -16,6 +16,8 @@ export default class extends React.Component{
                 <input type="text"/>
                 <br/><br/>
 
+                <input type="text"/>
+
             </div>
         )
     }
