@@ -12,7 +12,7 @@ export default class extends React.Component{
 
                 <div id="form-1">
 
-                    <input type="text"/>
+                    <input type="text" />
                     <br/><br/>
 
                     <input type="text"/>
