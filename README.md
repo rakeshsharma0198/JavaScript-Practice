@@ -17,7 +17,10 @@ http://blog.mycode.website/tdd/
 topics to review
 javascritp code assigments
 
+
+PWA: Progresive web applications
 prototipe chain
 this.
 asic pattersn
 call backs
+
